@@ -23,50 +23,31 @@ For Example:-
 
 This document will also cover how one can self deploy an SIEM using open source or freeware applications for better understanding.
 
-INDEX
+## INDEX
 
+- [**SIEM**](#_6agd2ppixml5)   **3**
 
-[**SIEM](#_6agd2ppixml5)	**3****
+    - [What is a SIEM?](#_4gugj1n57lvs)   3
+    - [What makes a SIEM?](#_5axnkh7wzsop)   4
+    - [Data Aggregation](#_f0v82oj8yw53)   4
+    - [Data Normalization](#_y8csmma9fbe4)   4
+    - [Unstructured Database](#_qgkyupbr3o5z)   4
+    - [Query Language/System](#_yfnsvblry9bg)   4
+    - [Data Retention](#_a12czkrvgckr)   4
+    - [Correlation Engine](#_icezpm5dgccv)   4
+    - [How does a SIEM work?](#_cpzl6cuq1jrh)   5
+    - [SIEM Use Cases](#_pfnxhtwrh330)   6
 
-[What is a SIEM?](#_4gugj1n57lvs)	3
+- [**Implementing An Open-Source SIEM Solution**](#_oa0253racdht)   **13**
 
-[What makes a SIEM?](#_5axnkh7wzsop)	4
-
-[Data Aggregation](#_f0v82oj8yw53)	4
-
-[Data Normalization](#_y8csmma9fbe4)	4
-
-[Unstructured Database](#_qgkyupbr3o5z)	4
-
-[Query Language/System](#_yfnsvblry9bg)	4
-
-[Data Retention](#_a12czkrvgckr)	4
-
-[Correlation Engine](#_icezpm5dgccv)	4
-
-[How does a SIEM work?](#_cpzl6cuq1jrh)	5
-
-[SIEM Use Cases](#_pfnxhtwrh330)	6
-
-[**Implementing An Open-Source SIEM Solution](#_oa0253racdht)	**13****
-
-[Components/Features](#_ns077v2rqv46)	13
-
-[Elasticsearch](#_5y16p7f46hct)	13
-
-[Wazuh](#_kxvd9bbc0bfx)	13
-
-[Kibana](#_tlz046mgwg85)	14
-
-[Filebeat](#_3btafj8dtvuj)	14
-
-[Deployment Architecture](#_ixc2v7n9dfvy)	16
-
-[All-in-one deployment](#_q0xs5ncast68)	16
-
-[Distributed deployment](#_tvgx9y87bvq9)	17
-
-
+    - [Components/Features](#_ns077v2rqv46)   13
+    - [Elasticsearch](#_5y16p7f46hct)   13
+    - [Wazuh](#_kxvd9bbc0bfx)   13
+    - [Kibana](#_tlz046mgwg85)   14
+    - [Filebeat](#_3btafj8dtvuj)   14
+    - [Deployment Architecture](#_ixc2v7n9dfvy)   16
+    - [All-in-one deployment](#_q0xs5ncast68)   16
+    - [Distributed deployment](#_tvgx9y87bvq9)   17
 # <a name="_6agd2ppixml5"></a>SIEM
 ## <a name="_4gugj1n57lvs"></a>What is a SIEM?
 SIEM stands for - Security Information and Event Management. The full form in itself is enough to understand a SIEM.
