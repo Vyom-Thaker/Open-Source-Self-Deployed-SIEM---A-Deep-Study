@@ -8,7 +8,7 @@
 **By Vyom Thaker** 
 
 -----
-![](Aspose.Words.63e46fe2-1041-481b-9daa-8eccb2f98833.001.png)
+![](C:\Users\vyom\Downloads\Open Source & Self Deployed SIEM - A Deep Study\Images\img1.png)
 
 SYNOPSIS
 
@@ -144,7 +144,7 @@ Here are some examples of SIEM correlation rules which illustrate this concept.
 
 The example could indicate a cyber attacker establishing a DHCP server to acquire malicious access to your network. Any authorized DHCP server would use one of your registered IP addresses!
 ## <a name="_pfnxhtwrh330"></a>SIEM Use Cases
-![](Aspose.Words.63e46fe2-1041-481b-9daa-8eccb2f98833.002.png)
+![](C:\Users\vyom\Downloads\Open Source & Self Deployed SIEM - A Deep Study\Images\img2.png)
 
 SIEM has many use cases in the modern threat landscape including detection and prevention for internal and external threats, as well as compliance with various legal standards. 
 
@@ -344,7 +344,7 @@ These four components will be configured to work together, refer below image for
 
 
 
-![](Aspose.Words.63e46fe2-1041-481b-9daa-8eccb2f98833.003.png)
+![](C:\Users\vyom\Downloads\Open Source & Self Deployed SIEM - A Deep Study\Images\img3.png)
 
 - Wazuh Manager will collect security events and information from wazuh agents
 - Wazuh correlation engine with help of decoders normalize the data
@@ -362,7 +362,7 @@ The above can be deployed in two ways
 ### <a name="_q0xs5ncast68"></a>All-in-one deployment
 Wazuh server and Elastic Stack are installed on the same host. This type of deployment is appropriate for testing and small working environments.
 
-![](Aspose.Words.63e46fe2-1041-481b-9daa-8eccb2f98833.004.png)
+![](C:\Users\vyom\Downloads\Open Source & Self Deployed SIEM - A Deep Study\Images\img4.png)
 
 The following components will be installed:
 
@@ -377,7 +377,7 @@ Each component is installed in a separate host as a single-node or multi-node cl
 
 Kibana can be installed on the same server as the Elasticsearch node, or on a separate one. This type of deployment is appropriate for production environments as it provides high availability and scalability of the services.
 
-![](Aspose.Words.63e46fe2-1041-481b-9daa-8eccb2f98833.005.png)
+![](C:\Users\vyom\Downloads\Open Source & Self Deployed SIEM - A Deep Study\Images\img5.png)
 
 The following components will be installed:
 
